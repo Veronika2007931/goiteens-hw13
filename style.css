@@ -242,6 +242,27 @@ justify-content: space-between;
 }
 
 /* Секція чим ми займаємось */
+.thumbwhatwedo{
+    position: relative;
+}
+.overlaywhatwedo{
+    position: absolute;
+    background-color:  rgba(47, 48, 58, 0.8);;
+    color: var(--thirdly-text-color);
+    bottom: 0;
+    
+    width: 100%;
+    height: 23%;
+}
+.overlaywhatwedo-text{
+   
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+}
+
 .work{
     display: flex;
     flex-wrap: wrap;
@@ -379,6 +400,7 @@ footer{
     
 }
 
+
 .overlay{
     background-color:  rgba(33, 150, 243, 0.9);
     padding: 69px 24px;
@@ -419,4 +441,16 @@ footer{
     border-left: 1px solid var(--card-border-line);
     border-right: 1px solid var(--card-border-line);
     border-bottom: 1px solid var(--card-border-line);
+  }
+
+  .closebutton{
+    border: none;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 17px;
+    left: 483px;
+  
+    
+
   }
