@@ -209,6 +209,7 @@ cursor: pointer;
 
 /* Модальне вікно */
 .backdrop{
+    z-index: 3;
     position: fixed;
     top: 0;
     left: 0;
@@ -252,7 +253,7 @@ justify-content: space-between;
     bottom: 0;
     
     width: 100%;
-    height: 23%;
+    padding: 27px;
 }
 .overlaywhatwedo-text{
    
@@ -444,13 +445,22 @@ footer{
   }
 
   .closebutton{
-    border: none;
+    background-color: var(--thirdly-text-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+   
+    top: 8px;
+    right: 8px;
+  
+ }
+ .svgclosebutton{
+
+    
     width: 11px;
     height: 11px;
-    position: absolute;
-    top: 17px;
-    left: 483px;
-  
     
-
-  }
+    
+ }
